@@ -10,6 +10,10 @@ claudia update {OPTIONS}
 
 ## Options
 
+*  `--profile`:  AWS profile that is locally configured
+*   https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
+    * _For example_: development-abcd
+    * _Defaults to_: AWS default profile
 *  `--version`:  (_optional_) A version alias to automatically assign to the new deployment
     * _For example_: development
 *  `--source`:  (_optional_) Directory with project files
