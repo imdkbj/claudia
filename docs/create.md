@@ -10,6 +10,10 @@ claudia create {OPTIONS}
 
 ## Options
 
+*  `--profile`:  AWS profile that is locally configured
+*   https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
+    * _For example_: development-abcd
+    * _Defaults to_: AWS default profile
 *  `--region`:  AWS region where to create the lambda. For supported values, see
     https://docs.aws.amazon.com/general/latest/gr/rande.html#lambda_region
     * _For example_: us-east-1
